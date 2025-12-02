@@ -4,7 +4,7 @@ body{
 h1{
     font-style: oblique;
     color: rgb(94, 88, 81);
-    font-size: 1%;
+    font-size: 60%;
 
 }
 .wrapper{
@@ -90,4 +90,72 @@ nav a:hover{
     color: rgb(87, 29, 29);
     text-decoration: none;
     font-weight: bold;
+}
+
+.two-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem 0;
+    font-size: 1.3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.two-columns img{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.btn-sec {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ad96798b;
+    color: #573b22;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.services {
+    background-color: #fdf9f0;
+    padding: 2rem;
+    margin: 2rem 0;
+    border: 1px solid #c7b08a;
+}
+
+.services h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.service-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.service-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.service-card h3 {
+    margin-top: 0.75rem;
+    font-size: 1rem;
 }
